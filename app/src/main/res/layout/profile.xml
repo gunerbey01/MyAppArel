@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <include
+        android:id="@+id/tool_bar"
+        layout="@layout/toolbar">
+    </include>
+
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="75dp"
+        android:src="@drawable/profilepicture" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Emir Güner"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="250dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="191030057"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="290dp"/>
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Adım Emir, 20 yaşındayım Mehmet Niyazi Altuğ Anadolu Lisesinden mezunum. Şuanda Arel Üniversitesinde Bilgisayar Programcılığı bölümünde okumaktayım. Çok küçük
+ yaşlarımdan bu yana bilgisayar ile iç içeyim. Bilgisayarla olan geçmişim toplumun genelinin yanı sıra bilgisayar oyunlarından çok donanım üzerineydi. Bunun sebebi babamın işlerinin bilgisayar ile yakından alakalı
+olmasıydı. Yaklaşık 4 yıldır yazılım alanında kendimi geliştirmekteyim. Lise yıllarında kendi kendime başladığım yazılım sektöründe
+ilerlemek adına akamedik kariyerimi de bu alana yönelttim. Son bir yıldır günümün büyük bir kısmını yazılıma, DGS sınavına ve
+kendi projelerimin üzerinde çalışmaya ayırmaktayım. Gelecek için planlarım arasında kısa vadede meslektaşım olan arkadaşlarım ile kurulum aşamasında
+olan yazılım şirketimizi hayata geçirmek ve okulumu bitirip DGS sınavında hedeflediğim üniversite ve bölümü kazanmak var. Uzun
+vadede ise yapay zeka teknolojileri üzerine yeni çalışmalar yapmak ve bu alanda geçmişte kendim geliştirdiğim projelerimi hayata
+geçirmek gibi planlarım var."
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="15dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="320dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
